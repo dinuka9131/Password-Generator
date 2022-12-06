@@ -1,0 +1,82 @@
+.container{
+    position: absolute;
+    height: 520px;
+    width: 550px;
+    left: 62px;
+    top: 64px;
+    background-color: #1F2937;
+    border: 3px solid black;
+}
+#generate{
+    position: absolute;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    font: optional;color: #FFFFFF;
+    margin-bottom: -20px;
+    left: 52px;
+    top: 80px;
+}
+#password{
+    position: absolute;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    font: optional;color: #4ADF86;
+    left: 52px;
+    top: 125px;
+}
+#comment{
+    position: absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: optional;color: #D5D4D8;
+    font-size: 15px;
+    font-weight: -10px;
+    left: 52px;
+    top: 200px;
+}
+button{
+    position: absolute;
+    height: 38px;
+    width: 180px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #10B981;
+    border: none;
+    font: optional;color: aliceblue;
+    left: 52px;
+    top: 280px;
+}
+hr{
+    position: absolute;
+    border: 1px solid #2F3E53;
+    left: 52px;
+    right: 52px;
+    top: 340px;
+}
+#password-1{
+    position: absolute;
+    height: 35px;
+    width: 210px; 
+    left: 52px;
+    top: 400px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #10B981;
+    background-color: #2F3E53;
+}
+#password-2{
+    position: absolute;
+    height: 35px;
+    width: 210px;
+    right: 52px;
+    top: 400px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #10B981;
+    background-color: #2F3E53;
+}
